@@ -47,24 +47,70 @@ table {
 /*
 reset fim
 */
+/*
+navbar
+*/
+.Navbar{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
 
-a{
+.Navbar, a{
   color: black;
   padding: 20px;
   font-size: 30px;
+  text-decoration:none;
 }
 
-a {
-    text-decoration:none;
- }
- a:hover {
+a:hover {
     text-decoration:underline;
  }
 
-.Navbar{
-  display: flex;
-  flex-direction: row;
+/*
+Text
+*/
+Text{
+    margin-top: 50px;
+    height: 200px !important;
+    width: 475px !important;
 }
- .Navbar a{
-  
- }
+
+Text, h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+Text, p{
+	font-size: 22px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+	width: 450px;
+}
+
+text, input{
+	background-color: #333333;
+	border: none;
+	width: 300px;
+	height: 70;
+	border-radius: 40px;
+	color: white;
+	padding: 17px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+/*
+Main1
+*/
+.Main1{
+	display: flex;
+    justify-content: center;
+    align-items: stretch;
+	margin: 50px;
+    margin-bottom: 30px;
+}
