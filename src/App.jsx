@@ -1,6 +1,5 @@
 import './App.css'
-import {Outlet} from 'react-router-dom'
-import Navbar from './Componetes/Navbar'
+import Navbar from './Componetes/navbar'
 import Text from './Componetes/Text'
 import Textimg from './imgs/Hero image.png'
 
@@ -13,7 +12,6 @@ function App() {
         <Text />
         <img src={Textimg} alt="" />
       </main>
-      <Outlet />
     </>
   )
 }
