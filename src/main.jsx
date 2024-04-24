@@ -4,22 +4,19 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App'
 import Sobre from './App2'
 import Contato from './App3'
-import Text from './Componetes/Text'
 
 const router = createBrowserRouter([
   {
-      path: '/',
-      element: <App/>,
-      children:[
-        {
-        index:true, 
-        element: <Text/>
+    children:[
+        { 
+        path: '/',
+        element: <App/>
       },
         {
           path: 'sobre',
           element: <Sobre/>,
       },
-      {
+        {
           path: 'contato',
           element: <Contato/>,
       }
