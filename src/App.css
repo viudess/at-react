@@ -57,13 +57,13 @@ navbar
 }
 
 .Navbar, a{
-  color: black;
-  padding: 20px;
-  font-size: 30px;
-  text-decoration:none;
+	color: black;
+	padding: 20px;
+	font-size: 30px;
+	text-decoration: none;
 }
 
-a:hover {
+a :hover {
     text-decoration:underline;
  }
 
